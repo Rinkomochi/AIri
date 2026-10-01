@@ -55,16 +55,15 @@ const HAILUO_01_USAGE_SCHEMA = {
 
 export const meta = {
   apiVersion: 1,
-  key: "hailuo",
-  name: "Hailuo Video",
-  icon: "Hailuo.Color",
+  key: "airi-video",
+  name: "AIri Video",
   description: {
-    en: "MiniMax Hailuo video generation (text-to-video, image-to-video, and MiniMax-H3 multimodal reference)",
-    zh: "MiniMax 海螺视频生成（文生视频、图生视频、MiniMax-H3 多模态参考生视频）",
+    en: "AIri video generation (text-to-video, image-to-video, and MiniMaxH3 multimodal reference)",
+    zh: "AIri 视频生成（文生视频、图生视频、MiniMaxH3 多模态参考生视频）",
   },
-  version: "1.2.1",
-  author: { name: "QuantumNous" },
-  channelTypes: [35],
+  version: "1.8.8",
+  author: { name: "AIri" },
+  channelTypes: [88],
   models: [
     "MiniMax-H3",
     "MiniMax-Hailuo-2.3",
